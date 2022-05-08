@@ -7,7 +7,7 @@ def main():
     log.info("Conway's Game of Life by Diogo André")
     parser = argparse.ArgumentParser(description="Conway's Game of Life by Diogo André")
     parser.add_argument("-g", "--grid-size", dest="gridsize", type=int, default=20, help="Size of the grid")
-    parser.add_argument("-c", "--cell-size-", dest="cellsize", type=int, default=15, help="Size of each cell in the GUI")
+    parser.add_argument("-c", "--cell-size-", dest="cellsize", type=int, default=10, help="Size of each cell in the GUI")
     parser.add_argument("-s", "--speed", dest="speed", type=int, default=2, help="Number of computed generations per second")
     parser.add_argument("--random", dest="random", action="store_true", help="Randomize the initialization of the cell grid")
     parser.add_argument("-w", "--write", dest="write", type=str, help="Write the grid to a file")
