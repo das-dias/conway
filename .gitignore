@@ -1,4 +1,7 @@
-./dist
-./conway/__pycache__
-./grids
-./tests
+/dist/**
+/dist
+/conway/__pycache__/**
+/conway/__pycache__
+/grids/**
+/tests/**
+/tests
