@@ -45,7 +45,7 @@ Running the game with an initial board of 25x25 cells:
 python conway/conway/main.py -g 25
 ```
 
-# Button Usage:
+## Button Usage:
 
 **Left Mouse Button**: Select the alive cells in the first generation.
 
@@ -54,7 +54,12 @@ python conway/conway/main.py -g 25
 **Mouse Scroll Click (Button 3)**: Automatically run all the generations of the game until no change happens.
 
 ## Example (with animated GIF):
+Manually setting up the initial configuration of cells in the grid:
 ![gamerun-gif](docs/images/conway_run.gif)
+
+Randomly setting up the initial configuration of cells in the grid with ```--random``` command:
+![randomrun-gif](docs/images/random_run.gif)
+
 ## Example Console Output:
 ```
 2022-05-08 11:13:11.292 | INFO     | __main__:main:7 - Conway's Game of Life by Diogo André
