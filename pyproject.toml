@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "conway"
 version = "0.1.0"
-description = ""
+description = "My take on the implementation of Conway's Game of Life"
 authors = ["dasdias <das.dias6@gmail.com>"]
 
 [tool.poetry.dependencies]
